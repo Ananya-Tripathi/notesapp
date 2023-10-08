@@ -34,5 +34,5 @@ npm start
 ```
 # Live Preview
 
-
+https://notes-app-0892.netlify.app/
 
