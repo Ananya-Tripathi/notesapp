@@ -1,7 +1,7 @@
 # Installation
 Run the following command to clone the repository
 ```
-git clone 
+git clone https://github.com/Ananya-Tripathi/notesapp.git
 ```
 Go to ```frontend``` and ```backend``` directory to install packages
 ```
