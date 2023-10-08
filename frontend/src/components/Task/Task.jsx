@@ -18,7 +18,7 @@ function Task({ task, id }) {
   async function handleRemove() {
     try {
       const response = await axios.post(
-        "http://localhost:8000/api/task/removeTask",
+        "https://noteapp-apqs.onrender.com/api/task/removeTask",
         {
           id,
         },

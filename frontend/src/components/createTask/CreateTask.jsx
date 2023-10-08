@@ -25,6 +25,7 @@ function CreateTask() {
       );
       //setToast(res.data)
       // showToast();
+      window.location.reload();
     } catch (error) {
       console.log(error);
     }
