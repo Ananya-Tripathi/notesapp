@@ -3,7 +3,7 @@ import { useState, useContext } from "react";
 import { Navigate } from "react-router-dom";
 import axios from "../Axios/axios.js";
 import TokenContext from "../context/TokenContext.js";
-import imgg from '../images/To do listt.png';
+import imgg from "../images/to do listt.png";
 function Register() {
   const [formData, setFormData] = useState({});
   const { userToken, tokenDispatch, userDispatch } = useContext(TokenContext);
@@ -31,14 +31,12 @@ function Register() {
         <div className="container px-6 py-12 h-full">
           <div className="flex justify-center items-center flex-wrap h-full g-6 text-gray-800">
             <div className="md:w-8/12 lg:w-6/12 mb-12 md:mb-0">
-              <img
-                src={imgg}
-                className="w-3/4 ml-10"
-                alt="Phone"
-              />
+              <img src={imgg} className="w-3/4 ml-10" alt="Phone" />
             </div>
             <div className="md:w-8/12 lg:w-5/12 lg:ml-20">
-            <h1 class="text-4xl font-bold uppercase tracking-wide text-[black] p-4 text-center">Registration here :)</h1>
+              <h1 class="text-4xl font-bold uppercase tracking-wide text-[black] p-4 text-center">
+                Registration here :)
+              </h1>
               <form method="post" onSubmit={handleSubmit}>
                 <div>
                   {error && (

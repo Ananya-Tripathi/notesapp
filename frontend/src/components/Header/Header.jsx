@@ -17,7 +17,7 @@ function Header() {
     <div>
       <nav className="header bg-[#10083c] flex justify-between items-center min-h-[100px] shadow-md shadow-white text-white">
         <div className="logo w-1/4 text-center">
-          <NavLink to="/">Todo App</NavLink>
+          <NavLink to="/">Notes App</NavLink>
         </div>
         <div className="flex justify-between">
           {token ? (
