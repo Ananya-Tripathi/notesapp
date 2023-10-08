@@ -6,14 +6,13 @@ export const EditTask = (props) => {
   const [title, setTitle] = useState(props.title);
   const [description, setDescription] = useState(props.description);
   const { userToken } = useContext(TokenContext);
-  
+
   async function editTask() {
     try {
-      
       const response = await axios.post(
-        "http://localhost:8000/api/task/editTask",
+        "https://noteapp-apqs.onrender.com/api/task/editTask",
         {
-          id: props.id, 
+          id: props.id,
           title,
           description,
         },
